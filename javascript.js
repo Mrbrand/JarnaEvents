@@ -2,7 +2,7 @@
  	
 function load_data(){
 
- $.ajax({url: "http://betarabbit.com/milito/handler.php?test_data", success: function(result){
+ $.ajax({url: "https://manu21.manufrog.com/~norrtuna/betarabbit.com/milito/jhandler.php", success: function(result){
     $("#output").html(result);
 }});
  }	
